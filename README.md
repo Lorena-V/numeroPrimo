@@ -1,6 +1,6 @@
-# Mi Proyecto HTML
+# Mi Proyecto de prueba comprobar numero primo en HTML y Javascrip
 
-Este es un proyecto HTML simple que muestra una página web estática. A continuación, encontrarás información sobre cómo usar y contribuir a este proyecto.
+Este es un proyecto HTML simple que muestra una página web estática.
 
 ## Contenido
 
