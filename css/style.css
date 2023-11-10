@@ -40,12 +40,12 @@
 
 }
 
-.verde{
-    color: green;
-}
-
-.rojo{
+.escondidorojo {
     color:  red;
+    visibility: hidden;
 }
 
-/*holii*/
+.escondidoverde {
+    color: green;
+    visibility: hidden;
+}

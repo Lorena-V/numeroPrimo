@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -11,13 +11,15 @@
 <body>
     <main class="main">
         <div class="container1">
-            <input class="numero" type="text" placeholder="hola! ¿quieres saber si un numero es primo?">
+            <input id="input_num" class="numero" type="text" placeholder="hola! ¿quieres saber si un numero es primo?">
             <button onclick="primo()" class="btn">Revisar</button>
         </div>
         <div class="container2">
-            <p>Este número es:</p>
-            <p class="verde">Es primo</p>
-            <p class="rojo">No es primo</p>
+            
+                <!-- <p>Este número </p> -->
+                <p class="escondidoverde"> Este número sí es primo</p>
+                <p class="escondidorojo">Este número no es primo</p>
+            
         </div>
     </main>
     <script src="primo.js"></script>
