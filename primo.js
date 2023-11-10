@@ -17,6 +17,6 @@ function primo(num) {
 //p>2? console.log("El número "+num+" no es primo estúpida."): console.log("El numero: "+num+" : Es primo");
 
 // hola soy la eliiii
-    
+    //Hola !!! que hace 
 }
 primo(8);
