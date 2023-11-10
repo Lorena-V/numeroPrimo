@@ -1,4 +1,6 @@
-function primo(num) {
+
+let num = 8;
+function primo() {
     var p = 0;
     for (var i = 1; i <= num; i = i + 1) {
         if (num % i == 0) {
@@ -12,4 +14,3 @@ function primo(num) {
         console.log("El numero: "+num+" : Es primo");
 }
 
-primo(7);
