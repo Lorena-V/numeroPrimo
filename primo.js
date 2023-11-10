@@ -5,6 +5,9 @@ function primo() {
     var num = consultaNumero;
     console.log(consultaNumero);
     if (!isNaN(num)) {
+        document.getElementById("input_num").disabled = true;
+        document.getElementById("btn").disabled = true;
+        
         var p = 0;
         for (var i = 1; i <= num; i++) {
             if (num % i == 0) {
