@@ -2,13 +2,13 @@
 
 function primo() {
     var consultaNumero = document.getElementById("input_num").value;
-    let num = consultaNumero
+    var num = consultaNumero;
     console.log(consultaNumero);
-    if (num == Number) {
+    if (!isNaN(num)) {
         var p = 0;
         for (var i = 1; i <= num; i++) {
             if (num % i == 0) {
-                p = p + 1
+                p = p + 1;
             }
         }
         if (p > 2){
@@ -20,7 +20,7 @@ function primo() {
             console.log("El numero: "+num+" : Es primo");
         }
     else {
-        alert("No se permiten letras ni caracteres, por favor vuelva a intentarlo.")
+        alert("No se permiten letras ni caracteres, por favor vuelva a intentarlo.");
     }    
 }
 
