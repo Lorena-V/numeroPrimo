@@ -40,12 +40,6 @@
 
 }
 
-.escondidorojo {
-    color:  red;
-    visibility: hidden;
-}
-
-.escondidoverde {
-    color: green;
+.respuesta {
     visibility: hidden;
 }

@@ -1,16 +1,16 @@
-
+let txtRespuesta  = document.getElementById("respuesta")
 
 
 function primo() {
     let num = document.getElementById("input_num").value;
+   
 
-    if (!isNaN(num) && num !="") {
-
+    if (!isNaN(num)) {
         let seraPrimo = esPrimo(num)
         mostrarPrimo(seraPrimo)
     }
     else {
-        alert("Debe ingresar un número, no se permiten letras ni caracteres, por favor vuelva a intentarlo.");
+        alert("No se permiten letras ni caracteres, por favor vuelva a intentarlo.");
     }
 }
 
@@ -31,12 +31,13 @@ function esPrimo(num) {
 
 
 function mostrarPrimo(siEs) {
-
     if (siEs) {
-        document.querySelector(".escondidoverde").style.visibility = "visible";
-        document.querySelector(".escondidorojo").style.visibility = "hidden";
+        txtRespuesta.style.visibility = "visible"
+        txtRespuesta.innerText = "numero es primo"
+        txtRespuesta.style.color = "green"
     } else {
-        document.querySelector(".escondidoverde").style.visibility = "hidden";
-        document.querySelector(".escondidorojo").style.visibility = "visible";
+        txtRespuesta.style.visibility = "visible"
+        txtRespuesta.innerText = "numero no es primo"
+        txtRespuesta.style.color = "red" 
     }
 }
